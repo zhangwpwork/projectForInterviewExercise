@@ -3,11 +3,9 @@ package com.example.projectforinterview.controller;
 import com.example.projectforinterview.entity.Customer;
 import com.example.projectforinterview.service.UserService;
 import lombok.extern.slf4j.Slf4j;
-import org.apache.catalina.User;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.servlet.ModelAndView;
 
 import javax.annotation.Resource;
 import java.util.List;
