@@ -11,4 +11,6 @@ public interface UserService {
     void userRegister(String username,String password);
 
     List<Customer> getUserList();
+
+    List<Customer> userLogin(String username,String password);
 }

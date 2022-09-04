@@ -1,0 +1,280 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta Keys -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Title -->
+    <title>RAEES</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/css/custom/bootstrap.min.css">
+
+    <!-- IcoFont CSS -->
+    <link rel="stylesheet" href="/css/custom/icofont.css">
+
+    <!-- OwlCarousel JS -->
+    <link rel="stylesheet" href="/css/custom/owl.carousel.css">
+
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="/css/custom/animate.css">
+
+    <!-- Custom Font -->
+    <link rel="stylesheet" href="/css/custom/custom-fonts.css">
+
+    <!-- StyleSheet -->
+    <link rel="stylesheet" href="/css/custom/style.css">
+    
+</head>
+
+<body>
+
+    <!-- Preloader -->
+    <div class="preloader-wrapper">
+        <div class="preloader3"></div>
+    </div>
+    <!-- Preloader -->
+
+    <!-- Color Picker -->
+    <div class="color-picker-wrap visible-color-wrap">
+        <span class="col-trigger"><i class="icofont icofont-calculations"></i></span>
+        <div class="col-picker-top">
+            <a th:href="@{/}"><img src="/images/uploads/logo.png" alt=""></a>
+        </div>
+        <div class="col-picker-bottom">
+            <div class="sin-palate">
+                <h4>Select Primary Color</h4>
+                <ul class="colors primary-colors">
+                    <li class="red"></li>
+                    <li class="green"></li>
+                    <li class="blue"></li>
+                    <li class="yellow"></li>
+                </ul>
+            </div>
+
+            <div class="sin-palate">
+                <h4>Select Secondary Color</h4>
+                <ul class="colors secondary-color">
+                    <li class="red"></li>
+                    <li class="green"></li>
+                </ul>
+                <div class="color-palate"></div>
+            </div>
+        </div>
+    </div>
+    <!-- /.End Of Color Picker -->
+
+    <!-- Header Area -->
+    <header class="header-area">
+
+        <div class="main-menu-area">
+            <div class="container">
+                <div class="menu-bg">
+                    <div class="row">
+                        <div class="col-md-2 col-sm-3">
+
+                            <!-- /.End Of Logo -->
+                        </div>
+                        <div class="col-md-10 col-sm-9">
+                            <nav class="main-menu">
+                                <div class="navbar-header">
+                                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                                        <span class="sr-only"></span>
+                                        <i class="icofont icofont-navigation-menu"></i>
+                                    </button>
+                                </div>
+                                <!-- /.Navbar Header -->
+
+                                <nav id="navbar" class="navbar-collapse collapse">
+                                    <ul class="nav navbar-nav">
+                                        <li><a th:href="@{/}">home</a></li>
+                                        <li><a th:href="@{/about}">about</a></li>
+                                        <li><a th:href="@{/services}">services</a></li>
+                                        <li><a th:href="@{/projects}">work</a></li>
+                                        <li><a th:href="@{/single}">single</a></li>
+                                        <li><a th:href="@{/latest}">blog</a></li>
+                                        <li><a th:href="@{/contact}">contact</a></li>
+                                    </ul>
+                                </nav>
+                                <!-- /.End Of Nav Bar -->
+
+                                <div class="search-box">
+                                    <i class="icofont search-trigger icofont-search"></i>
+                                    <div class="search-form">
+                                        <form action="#">
+                                            <input type="text" placeholder="Search..." name="s" id="s">
+                                            <button type="submit"><i class="icofont icofont-search"></i></button>
+                                        </form>
+                                    </div>
+                                </div>
+                                <!-- /.End Of Search Box -->
+                            </nav>
+                            <!-- /.End Of Main Menu -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /.End Of MainMenu Area -->
+
+        <div class="page-title animated a_f">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h2>FAQ</h2>
+                    </div>
+                    <div class="col-md-6">
+                        <ul class="breadcrumbs">
+                            <li><a href="#">home</a></li>
+                            <li><a href="#">pages</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /.End Of Page Title Section -->
+
+    </header>
+    <!-- /.End Of Header Area -->
+
+    <!-- Contact Section -->
+    <section class="contact-section animated a_f">
+        <div id="googleMap" style="background-color: #66afe9;width:100%; height:840px;"></div>
+
+        <div class="contact-form">
+            <!-- /.End Of Contact Info -->
+
+            <form th:action="@{/sys/user/userLogin}">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p>
+                            <input type="text" name="username" placeholder="用户名" id="name">
+                        </p>
+                    </div>
+                    <!-- /.End Of Single Input -->
+
+                    <div class="col-md-12">
+                        <p>
+                            <input type="text" name="password" placeholder="密码" id="phone">
+                        </p>
+                    </div>
+                    <!-- /.End Of Single Input -->
+
+                    <div class="col-md-12">
+                        <p>
+                            <input type="email" name="email" placeholder="Email" id="email">
+                        </p>
+                    </div>
+
+                    <div class="col-md-12">
+                        <input type="submit" value="登录">
+                        <input type="submit" value="注册">
+                    </div>
+                    <!-- /.End Of Single Input -->
+
+                </div>
+            </form>
+        </div>
+        <!-- /.End Of Contact Form -->
+
+    </section>
+    <!-- /.End Of Contact Section -->
+
+    <!-- Footer Section -->
+    <footer class="footer-section sp100 animated a_f">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="widget">
+                        <div class="footer-logo">
+                            <a th:href="@{/}"><img src="/images/uploads/logo-2.png" alt=""></a>
+                        </div>
+                        <!-- /.End Of Footer Logo -->
+                        <p>Duis autem vel eum iriure dolor inhe ndrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros.</p>
+                        <p>Duis autem vel eum iriure dolor inhe ndrerit in vulputate velit esse molestie</p>
+                    </div>
+                </div>
+                <!-- /.End Of Single Widget -->
+                <div class="col-md-4">
+                    <div class="widget">
+                        <h4 class="widget-title">RECENT NEWS</h4>
+                        <div class="latest-news-widget">
+
+                            <div class="sin-latest-news-widget">
+                                <a href="#" class="widget-news-thumb">
+                                    <img src="/images/latest-news/img-03.jpg" alt="">
+                                </a>
+                                <div class="widget-news-content">
+                                    <p>Duis autem vel eum iriure dolorn endrerit in vulputate velit.</p>
+                                    <a href="#" class="news-posted-date">25 June, 2017</a>
+                                </div>
+                            </div>
+                            <!-- /.End Of Latest News Widget -->
+
+                            <div class="sin-latest-news-widget">
+                                <a href="#" class="widget-news-thumb">
+                                    <img src="/images/latest-news/img-03.jpg" alt="">
+                                </a>
+                                <div class="widget-news-content">
+                                    <p>Duis autem vel eum iriure dolorn endrerit in vulputate velit.</p>
+                                    <a href="#" class="news-posted-date">25 June, 2017</a>
+                                </div>
+                            </div>
+                            <!-- /.End Of Latest News Widget -->
+
+                        </div>
+                        <!-- /.End Of Latest News -->
+                    </div>
+                </div>
+                <!-- /.End Of Single Widget -->
+                <div class="col-md-4">
+                    <div class="widget">
+                        <h4 class="widget-title">photo gallery</h4>
+                        <div class="badges">
+                            <!--<script type="text/javascript" src="https://www.flickr.com/badge_code_v2.gne?count=8&amp;display=random&amp;size=s&amp;layout=x&amp;source=user&amp;user=34178660@N03"></script>-->
+                        </div>
+                    </div>
+                </div>
+                <!-- /.End Of Single Widget -->
+            </div>
+        </div>
+    </footer>
+    <!-- /.End Of Footer Section -->
+
+
+    <!-- jQuery -->
+    <script src="/js/jquery.1.12.4.min.js"></script>
+
+    <!-- Google Map Api -->
+    <script src="http://ditu.google.cn/maps/api/js?key=AIzaSyD7CQl6fRhagGok6CzFGOOPne2X1u1spoA"></script>
+
+    <!-- WayPoint -->
+    <script src="/js/jquery.waypoints.min.js"></script>
+
+    <!-- Map JS -->
+    <script src="/js/map.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="/js/bootstrap.min.js"></script>
+
+    <!-- Masonry JS -->
+    <script src="/js/masonry.pkgd.min.js"></script>
+
+    <!-- OwlCarousel JS -->
+    <script src="/js/owl.carousel.min.js"></script>
+
+    <!-- Main JS -->
+    <script src="/js/main.js"></script>
+
+    <!-- Color JS -->
+    <script src="/js/color.js"></script>
+
+</body>
+
+</html>
+

@@ -31,4 +31,9 @@ public class UserServiceImpl implements UserService {
     public List<Customer> getUserList() {
         return userDao.getUserList();
     }
+
+    @Override
+    public List<Customer> userLogin(String username, String password) {
+        return userDao.userLogin(username,password);
+    }
 }

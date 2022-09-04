@@ -1,0 +1,596 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta Keys -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Title -->
+    <title>HOME</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/css/custom/bootstrap.min.css">
+
+    <!-- IcoFont CSS -->
+    <link rel="stylesheet" href="/css/custom/icofont.css">
+
+    <!-- OwlCarousel CSS -->
+    <link rel="stylesheet" href="/css/custom/owl.carousel.css">
+
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="/css/custom/animate.css">
+
+    <!-- Custom Font -->
+    <link rel="stylesheet" href="/css/custom/custom-fonts.css">
+
+    <!-- StyleSheet -->
+    <link rel="stylesheet" href="/css/custom/style.css">
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+    <!-- Preloader -->
+    <div class="preloader-wrapper">
+        <div class="preloader3"></div>
+    </div>
+    <!-- Preloader -->
+
+    <!-- Color Picker -->
+    <div class="color-picker-wrap visible-color-wrap">
+        <span class="col-trigger"><i class="icofont icofont-calculations"></i></span>
+        <div class="col-picker-top">
+            <a th:href="@{/}"><img src="/images/uploads/logo.png" alt=""></a>
+        </div>
+        <div class="col-picker-bottom">
+            <div class="sin-palate">
+                <h4>Select Primary Color</h4>
+                <ul class="colors primary-colors">
+                    <li class="red"></li>
+                    <li class="green"></li>
+                    <li class="blue"></li>
+                    <li class="yellow"></li>
+                </ul>
+            </div>
+
+            <div class="sin-palate">
+                <h4>Select Secondary Color</h4>
+                <ul class="colors secondary-color">
+                    <li class="red"></li>
+                    <li class="green"></li>
+                </ul>
+                <div class="color-palate"></div>
+            </div>
+        </div>
+    </div>
+    <!-- /.End Of Color Picker -->
+
+    <!-- Header Area -->
+    <header class="header-area header-height">
+
+        <div class="main-menu-area">
+            <div class="container">
+                <div class="menu-bg">
+                    <div class="row">
+<!--                        <div class="col-md-2 col-sm-3">-->
+<!--                            &lt;!&ndash; /.End Of Logo &ndash;&gt;-->
+<!--                        </div>-->
+                        <div class="col-md-10 col-sm-9">
+                            <nav class="main-menu">
+                                <div class="navbar-header">
+                                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                                        <span class="sr-only"></span>
+                                        <i class="icofont icofont-navigation-menu"></i>
+                                    </button>
+                                </div>
+                                <!-- /.Navbar Header -->
+
+                                <nav id="navbar" class="navbar-collapse collapse">
+                                    <ul class="nav navbar-nav">
+                                        <li><a th:href="@{/}">home</a></li>
+                                        <li><a th:href="@{/about}">about</a></li>
+                                        <li><a th:href="@{/services}">services</a></li>
+                                        <li><a th:href="@{/projects}">work</a></li>
+                                        <li><a th:href="@{/single}">single</a></li>
+                                        <li><a th:href="@{/latest}">blog</a></li>
+                                        <li><a th:href="@{/contact}">contact</a></li>
+                                        <li><a th:href="@{/contact}">login</a></li>
+                                    </ul>
+                                </nav>
+                                <!-- /.End Of Nav Bar -->
+
+                                <div class="search-box">
+                                    <i class="icofont search-trigger icofont-search"></i>
+                                    <div class="search-form">
+                                        <form action="#">
+                                            <input type="text" placeholder="Search..." name="s" id="s">
+                                            <button type="submit"><i class="icofont icofont-search"></i></button>
+                                        </form>
+                                    </div>
+                                </div>
+                                <!-- /.End Of Search Box -->
+                            </nav>
+                            <!-- /.End Of Main Menu -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /.End Of MainMenu Area -->
+
+        <div class="slider-area animated a_f">
+            <div class="slider-wrapper">
+
+                <div class="item overlay" style="background-image:url(images/slides/img-01.jpg);">
+                    <div class="slide-content">
+                        <h1>We give always <span>creative</span> design</h1>
+                        <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie nseuat, vel illum nulla facilisis
+                            <br> at vero eros et accumsan putate velit esse molestie et iusto odio dignssim praesent .</p>
+                        <a href="" class="b-btn simple-hover1 btn-filled">Discover more <i class="icofont icofont-long-arrow-right"></i></a>
+                        <a href="" class="b-btn upx-btn-hover1">Get start now <i class="icofont icofont-long-arrow-right"></i></a>
+                    </div>
+                    <i class="icofont slide-down-arrow icofont-scroll-long-down"></i>
+                </div>
+                <!-- /.End Of Single Slide -->
+
+                <div class="item overlay" style="background-image:url(images/slides/img-02.jpg);">
+                    <div class="slide-content">
+                        <h1>We give always <span>creative</span> design</h1>
+                        <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie nseuat, vel illum nulla facilisis
+                            <br> at vero eros et accumsan putate velit esse molestie et iusto odio dignssim praesent .</p>
+                        <a href="" class="b-btn simple-hover1 btn-filled">Discover more <i class="icofont icofont-long-arrow-right"></i></a>
+                        <a href="" class="b-btn upx-btn-hover1">Get start now <i class="icofont icofont-long-arrow-right"></i></a>
+                    </div>
+                    <i class="icofont slide-down-arrow icofont-scroll-long-down"></i>
+                </div>
+                <!-- /.End Of Single Slide -->
+
+                <div class="item overlay" style="background-image:url(images/slides/img-03.jpg);">
+                    <div class="slide-content">
+                        <h1>We give always <span>creative</span> design</h1>
+                        <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie nseuat, vel illum nulla facilisis
+                            <br> at vero eros et accumsan putate velit esse molestie et iusto odio dignssim praesent .</p>
+                        <a href="" class="b-btn simple-hover1 btn-filled">Discover more <i class="icofont icofont-long-arrow-right"></i></a>
+                        <a href="" class="b-btn upx-btn-hover1">Get start now <i class="icofont icofont-long-arrow-right"></i></a>
+                    </div>
+                    <i class="icofont slide-down-arrow icofont-scroll-long-down"></i>
+                </div>
+                <!-- /.End Of Single Slide -->
+
+            </div>
+        </div>
+        <!-- /.End Of Slider Area -->
+
+    </header>
+    <!-- /.End Of Header Area -->
+
+    <!-- Services Area -->
+    <section class="services-area sp100 animated a_f">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-md-offset-0 col-sm-offset-1 col-sm-10">
+                    <div class="sin-service text-center">
+                        <span class="service-hover-bar"></span>
+                        <div class="service-icon">
+                            <i class="btheme-desktop"></i>
+                        </div>
+                        <h4>Web Development</h4>
+                        <p>Duis autem vel eum nure dolor hendre mulputate velesse molestie conse accums odio dissim asent.</p>
+                    </div>
+                </div>
+                <!-- /.End Of Single Service Item -->
+                <div class="col-md-4 col-md-offset-0 col-sm-offset-1 col-sm-10">
+                    <div class="sin-service text-center">
+                        <span class="service-hover-bar"></span>
+                        <div class="service-icon">
+                            <i class="btheme-drawing"></i>
+                        </div>
+                        <h4>Graphic Design</h4>
+                        <p>Duis autem vel eum nure dolor hendre mulputate velesse molestie conse accums odio dissim asent.</p>
+                    </div>
+                </div>
+                <!-- /.End Of Single Service Item -->
+                <div class="col-md-4 col-md-offset-0 col-sm-offset-1 col-sm-10">
+                    <div class="sin-service text-center last">
+                        <span class="service-hover-bar"></span>
+                        <div class="service-icon">
+                            <i class="btheme-bar-chart"></i>
+                        </div>
+                        <h4>Online Marketing</h4>
+                        <p>Duis autem vel eum nure dolor hendre mulputate velesse molestie conse accums odio dissim asent.</p>
+                    </div>
+                </div>
+                <!-- /.End Of Single Service Item -->
+            </div>
+        </div>
+    </section>
+    <!-- /.End Of Services Area -->
+
+    <!-- ImageText Holder Section -->
+    <section class="image-text-holder spb100 animated a_f">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="image-holder animated a_f">
+                        <img src="/images/uploads/about-thumb.jpg" alt="">
+                    </div>
+                    <!-- /.End Of Image Holder -->
+                </div>
+                <div class="col-md-6">
+                    <div class="text-holder pL animated a_f">
+                        <h2>We are always expert.</h2>
+                        <p>Duis autem vel <a href="">“eum iriure dolor in hendrerit in vulputate”</a> velit essemol estie consequat, vel illum dolore eu feugiat nulla facilisis at vererost accumsan et iusto odio dignissim.</p>
+                        <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit essemol estie consequat, vel illum dolore eu feugiat nulla facilisis at veroeim accumsan et iusto odio dignissim qui blandit praesent.</p>
+                        <a href="#" class="b-btn simple-hover1 read-more-btn">Read more <i class="icofont icofont-long-arrow-right"></i></a>
+                    </div>
+                    <!-- /.End Of Text Holder -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /.End Of ImageText Holder Section -->
+
+    <!-- Our Project Section -->
+    <section class="our-project-section spb100 animated a_f">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2>Awesome Project</h2>
+                    <p>Duis autem vel eum iriure dolor in hendrerit in vulputat essemo</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="project-wrapper">
+
+                        <div class="sin-project">
+                            <img src="/images/projects/img-01.jpg" alt="">
+                            <a href="" class="project-hover">
+                                <h4>Project Title</h4>
+                                <span>Graphic Design</span>
+                                <i class="icofont icofont-long-arrow-right"></i>
+                            </a>
+                            <!-- /.End Of Project Hover -->
+
+                        </div>
+                        <!-- /.End Of Single Project -->
+
+                        <div class="sin-project">
+                            <img src="/images/projects/img-02.jpg" alt="">
+
+                            <a href="" class="project-hover">
+                                <h4>Project Title</h4>
+                                <span>Graphic Design</span>
+                                <i class="icofont icofont-long-arrow-right"></i>
+                            </a>
+                            <!-- /.End Of Project Hover -->
+
+                        </div>
+                        <!-- /.End Of Single Project -->
+
+                        <div class="sin-project">
+                            <img src="/images/projects/img-02.jpg" alt="">
+
+                            <a href="" class="project-hover">
+                                <h4>Project Title</h4>
+                                <span>Graphic Design</span>
+                                <i class="icofont icofont-long-arrow-right"></i>
+                            </a>
+                            <!-- /.End Of Project Hover -->
+
+                        </div>
+                        <!-- /.End Of Single Project -->
+
+                        <div class="sin-project large-height-project">
+                            <img src="/images/projects/img-04.jpg" alt="">
+
+                            <a href="" class="project-hover">
+                                <h4>Project Title</h4>
+                                <span>Graphic Design</span>
+                                <i class="icofont icofont-long-arrow-right"></i>
+                            </a>
+                            <!-- /.End Of Project Hover -->
+
+                        </div>
+                        <!-- /.End Of Single Project -->
+
+                        <div class="sin-project">
+                            <img src="/images/projects/img-01.jpg" alt="">
+
+                            <a href="" class="project-hover">
+                                <h4>Project Title</h4>
+                                <span>Graphic Design</span>
+                                <i class="icofont icofont-long-arrow-right"></i>
+                            </a>
+                            <!-- /.End Of Project Hover -->
+
+                        </div>
+                        <!-- /.End Of Single Project -->
+
+                        <div class="sin-project">
+                            <img src="/images/projects/img-02.jpg" alt="">
+
+                            <a href="" class="project-hover">
+                                <h4>Project Title</h4>
+                                <span>Graphic Design</span>
+                                <i class="icofont icofont-long-arrow-right"></i>
+                            </a>
+                            <!-- /.End Of Project Hover -->
+
+                        </div>
+                        <!-- /.End Of Single Project -->
+
+                        <div class="sin-project">
+                            <img src="/images/projects/img-02.jpg" alt="">
+
+                            <a href="" class="project-hover">
+                                <h4>Project Title</h4>
+                                <span>Graphic Design</span>
+                                <i class="icofont icofont-long-arrow-right"></i>
+                            </a>
+                            <!-- /.End Of Project Hover -->
+
+                        </div>
+                        <!-- /.End Of Single Project -->
+
+                    </div>
+                    <!-- /.End Of Project Wrapper -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /.End Of Our Project Section -->
+
+    <!-- CTA Section -->
+    <section class="cta-section overlay animated a_f" style="background-image:url(images/uploads/cta-bg.jpg)">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9">
+                    <h4> Duis autem vel eum iriure dolor ndrerit</h4>
+                    <h2>We can call you and help with your problem.</h2>
+                </div>
+                <div class="col-md-3">
+                    <a href="#" class="b-btn cta-btn simple-hover1">Contact us <i class="icofont icofont-long-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /.End Of CTA Section -->
+
+
+    <!-- ImageText Holder Section -->
+    <section class="image-text-holder animated a_f spt100">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="text-holder pR-30">
+                        <h2>A simple idea can change<br>the world</h2>
+                        <p>Duis autem vel <a href="">“eum iriure dolor in hendrerit in vulputate”</a> velit essemol estie consequat, vel illum dolore eu feugiat nulla facilisis at vererost accumsan et iusto odio dignissim.</p>
+                        <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit essemol estie consequat, vel illum dolore eu feugiat nulla facilisis at veroeim accumsan et iusto odio dignissim qui blandit praesent.</p>
+                        <a href="#" class="b-btn read-more-btn simple-hover1">Read more <i class="icofont icofont-long-arrow-right"></i></a>
+                    </div>
+                    <!-- /.End Of Text Holder -->
+                </div>
+                <div class="col-md-6">
+                    <div class="image-holder">
+                        <img src="/images/uploads/about-thumb.jpg" alt="">
+                    </div>
+                    <!-- /.End Of Image Holder -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /.End Of ImageText Holder Section -->
+
+    <!-- Our Team Section -->
+    <section class="our-team-section animated a_f spt100">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title">
+                        <h2>Creative Team</h2>
+                        <p>Duis autem vel eum iriure dolor in hendrerit in vulputat essemo</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 col-md-offset-0 col-sm-offset-3 col-sm-6">
+                    <div class="sin-team-member">
+                        <img src="/images/members/img-01.jpg" alt="">
+
+                        <div class="team-member-hover">
+                            <h4>CRISTIANO MONAS</h4>
+                            <span>Team Leader</span>
+                        </div>
+                        <!-- /.End Of Member Hover -->
+                    </div>
+                </div>
+                <!-- /.End Of Single Team Member -->
+
+                <div class="col-md-3 col-md-offset-0 col-sm-offset-3 col-sm-6">
+                    <div class="sin-team-member">
+                        <img src="/images/members/img-02.jpg" alt="">
+
+                        <div class="team-member-hover">
+                            <h4>CRISTIANO MONAS</h4>
+                            <span>Team Leader</span>
+                        </div>
+                        <!-- /.End Of Member Hover -->
+                    </div>
+                </div>
+                <!-- /.End Of Single Team Member -->
+
+                <div class="col-md-3 col-md-offset-0 col-sm-offset-3 col-sm-6">
+                    <div class="sin-team-member">
+                        <img src="/images/members/img-03.jpg" alt="">
+
+                        <div class="team-member-hover">
+                            <h4>CRISTIANO MONAS</h4>
+                            <span>Team Leader</span>
+                        </div>
+                        <!-- /.End Of Member Hover -->
+                    </div>
+                </div>
+                <!-- /.End Of Single Team Member -->
+
+                <div class="col-md-3 col-md-offset-0 col-sm-offset-3 col-sm-6">
+                    <div class="sin-team-member">
+                        <img src="/images/members/img-04.jpg" alt="">
+
+                        <div class="team-member-hover">
+                            <h4>CRISTIANO MONAS</h4>
+                            <span>Team Leader</span>
+                        </div>
+                        <!-- /.End Of Member Hover -->
+                    </div>
+                </div>
+                <!-- /.End Of Single Team Member -->
+            </div>
+        </div>
+    </section>
+    <!-- /.End Of Our Team Section -->
+
+    <!-- Latest News Section -->
+    <section class="latest-news-section animated a_f sp100">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title">
+                        <h2>Latest News</h2>
+                        <p>Duis autem vel eum iriure dolor in hendrerit in vulputat essemo</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-md-offset-0 col-sm-offset-1 col-sm-10">
+                    <div class="sin-latest-news">
+                        <div class="latest-news-thumb">
+                            <img src="/images/latest-news/img-01.jpg" alt="">
+                        </div>
+                        <!-- /.End Of Latest News Thumb -->
+                        <div class="latest-news-content">
+                            <div class="news-text">
+                                <a href=""><h4>Duis autem vel eum iriure dolor.</h4></a>
+                                <a href="#" class="news-date">22 December, 2017</a>
+                                <p>Mutem vel eum iriure dolor in hendrerit in putate velit esse molestie conseq illumdre.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.End Of Single Latest News -->
+                <div class="col-md-6 col-md-offset-0 col-sm-offset-1 col-sm-10">
+                    <div class="sin-latest-news last">
+                        <div class="latest-news-thumb">
+                            <img src="/images/latest-news/img-02.jpg" alt="">
+                        </div>
+                        <!-- /.End Of Latest News Thumb -->
+                        <div class="latest-news-content">
+                            <div class="news-text">
+                                <a href=""><h4>Duis autem vel eum iriure dolor.</h4></a>
+                                <a href="#" class="news-date">22 December, 2017</a>
+                                <p>Mutem vel eum iriure dolor in hendrerit in putate velit esse molestie conseq illumdre.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.End Of Single Latest News -->
+            </div>
+        </div>
+    </section>
+    <!-- /.End Of Latest News Section -->
+
+    <!-- Footer Section -->
+    <footer class="footer-section animated a_f sp100">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="widget">
+                        <div class="footer-logo">
+                            <a th:href="@{/}"><img src="/images/uploads/logo-2.png" alt=""></a>
+                        </div>
+                        <!-- /.End Of Footer Logo -->
+                        <p>Duis autem vel eum iriure dolor inhe ndrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros.</p>
+                        <p>Duis autem vel eum iriure dolor inhe ndrerit in vulputate velit esse molestie</p>
+                    </div>
+                </div>
+                <!-- /.End Of Single Widget -->
+                <div class="col-md-4">
+                    <div class="widget">
+                        <h4 class="widget-title">RECENT NEWS</h4>
+                        <div class="latest-news-widget">
+
+                            <div class="sin-latest-news-widget">
+                                <a href="#" class="widget-news-thumb">
+                                    <img src="/images/latest-news/img-03.jpg" alt="">
+                                </a>
+                                <div class="widget-news-content">
+                                    <p>Duis autem vel eum iriure dolorn endrerit in vulputate velit.</p>
+                                    <a href="#" class="news-posted-date">25 June, 2017</a>
+                                </div>
+                            </div>
+                            <!-- /.End Of Latest News Widget -->
+
+                            <div class="sin-latest-news-widget">
+                                <a href="#" class="widget-news-thumb">
+                                    <img src="/images/latest-news/img-03.jpg" alt="">
+                                </a>
+                                <div class="widget-news-content">
+                                    <p>Duis autem vel eum iriure dolorn endrerit in vulputate velit.</p>
+                                    <a href="#" class="news-posted-date">25 June, 2017</a>
+                                </div>
+                            </div>
+                            <!-- /.End Of Latest News Widget -->
+
+                        </div>
+                        <!-- /.End Of Latest News -->
+                    </div>
+                </div>
+                <!-- /.End Of Single Widget -->
+                <div class="col-md-4">
+                    <div class="widget">
+                        <h4 class="widget-title">photo gallery</h4>
+                        <div class="badges">
+                            <!--<script type="text/javascript" src="https://www.flickr.com/badge_code_v2.gne?count=8&amp;display=random&amp;size=s&amp;layout=x&amp;source=user&amp;user=34178660@N03"></script>-->
+                        </div>
+                    </div>
+                </div>
+                <!-- /.End Of Single Widget -->
+            </div>
+        </div>
+    </footer>
+    <!-- /.End Of Footer Section -->
+
+
+    <!-- jQuery -->
+    <script src="/js/jquery.1.12.4.min.js"></script>
+
+    <!-- WayPoints JS -->
+    <script src="/js/jquery.waypoints.min.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="/js/bootstrap.min.js"></script>
+
+    <!-- OwlCarousel JS -->
+    <script src="/js/owl.carousel.min.js"></script>
+
+    <!-- Masonry JS -->
+    <script src="/js/masonry.pkgd.min.js"></script>
+
+    <!-- Main JS -->
+    <script src="/js/main.js"></script>
+
+    <!-- Color JS -->
+    <script src="/js/color.js"></script>
+
+</body>
+
+</html>
+

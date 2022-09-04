@@ -18,4 +18,7 @@ public interface UserDao {
 
     @Select("select * from customer")
     List<Customer> getUserList();
+
+    @Select("select * from customer where username=#{username} and password=#{password}")
+    List<Customer> userLogin(String username,String password);
 }
